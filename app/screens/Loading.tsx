@@ -16,7 +16,7 @@ export default function LoadingScreen() {
         <View style={styles.separator}/>
         <View style={styles.body}>
             <View style={styles.buttonView}>
-            <DefaultButton title='Continue to Home' onPress={handlePress} bgColor='rgb(0, 0, 0)' textColor='white' textSize={16} />
+              <DefaultButton title='Continue to Home' onPress={handlePress} bgColor='rgb(0, 0, 0)' textColor='white' textSize={16} />
             </View>
         </View>
         </View>
@@ -57,7 +57,7 @@ const styles = StyleSheet.create({
   buttonView: { 
     width: '75%',
     flexDirection: 'row', 
-    justifyContent: 'space-between',
+    justifyContent: 'center',
     backgroundColor: 'rgba(0, 0, 0, 0)'
   },
   buttonStyle: {
